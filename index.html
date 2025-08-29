@@ -3,31 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Básica</title>
+    <title>Página Interactiva</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Bienvenido a mi Página Web</h1>
-        <p>Un ejemplo sencillo con HTML, CSS y un poco de JavaScript</p>
+        <p>Un ejemplo sencillo con HTML, CSS y JavaScript</p>
     </header>
 
     <main>
+        <!-- Reloj -->
         <section>
-            <h2>Reloj en vivo</h2>
+            <h2>⏰ Reloj en vivo</h2>
             <p id="reloj"></p>
         </section>
 
+        <!-- Botón con contador -->
         <section>
-            <h2>Interacción</h2>
+            <h2>🎨 Interacción</h2>
             <button id="cambiarColor">Cambiar color de fondo</button>
+            <p>Has hecho clic <span id="contador">0</span> veces</p>
+        </section>
+
+        <!-- Saludo personalizado -->
+        <section>
+            <h2>🙋‍♂️ Saludo Personalizado</h2>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre">
+            <button id="saludar">Saludar</button>
+            <p id="mensajeSaludo"></p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Mi Página Básica</p>
+        <p>&copy; 2025 Mi Página Interactiva</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
+
